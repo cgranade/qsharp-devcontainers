@@ -3,5 +3,5 @@
         "quantum.quantum-devkit-vscode",
         "ms-vscode.csharp"
     ],
-    "postCreateCommand": "/bin/bash ./post-build.sh"
+    "postCreateCommand": "pwd && /bin/bash ./post-build.sh"
 }
