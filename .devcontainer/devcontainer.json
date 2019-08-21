@@ -1,7 +1,8 @@
 {
     "extensions": [
         "quantum.quantum-devkit-vscode",
-        "ms-vscode.csharp"
+        "ms-vscode.csharp",
+        "ms-python.python"
     ],
     "postCreateCommand": "/bin/bash ./.devcontainer/post-build.sh > ~/post-build.log"
 }
